@@ -1,0 +1,32 @@
+Table names:
+	Students
+	FeedbackDetails
+	Feedback_category
+	Votes
+
+Student:
+	Student Id
+	Student Name
+	Username
+	Password
+
+Feedback Details:
+	Feedback Id
+	Feedback 
+	Posted By
+	Posted On
+	Status
+	Category Id
+	UpVote_Count
+	DownVote_Count
+
+Category:
+	Category Id
+	Category Name
+
+Votes:
+	Vote Id
+	Feedback Id
+	Student Id
+	Up Vote
+	Down Vote
