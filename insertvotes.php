@@ -22,7 +22,7 @@ if($result->num_rows>0){
 	}
 }
 
-$query="update feedbackdetails set UpVote_Count=$updated_upvote,DownVote_Count=$updated_downvote";
+$query="update feedbackdetails set UpVote_Count=$updated_upvote,DownVote_Count=$updated_downvote where FeedbackId=$feedback_id";
 $result=mysqli_query($con,$query);
 
 ?>
